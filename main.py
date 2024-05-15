@@ -8,10 +8,6 @@ from keras.models import load_model
 from directkeys import X,Z,A,D,PressKey , ReleaseKey
 import time
 
-one = np.array([1, 0, 0])
-two = np.array([0, 1, 0])
-three = np.array([0, 0, 1])
-four = np.array([0, 0, 0]) 
 
 def ZZZ():
     PressKey(Z)
